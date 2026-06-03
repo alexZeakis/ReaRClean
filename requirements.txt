@@ -1,0 +1,8 @@
+streamlit==1.54.0
+pandas==2.3.3
+langchain_community==0.4.1
+openai==2.20.0
+networkx==3.4.2
+seaborn==6.7.0
+st-cytoscape==0.0.5
+scipy==1.15.3
