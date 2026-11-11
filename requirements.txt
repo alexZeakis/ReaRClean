@@ -1,8 +1,8 @@
-streamlit==1.54.0
-pandas==2.3.3
-langchain_community==0.4.1
-openai==2.20.0
-networkx==3.4.2
-seaborn==6.7.0
-st-cytoscape==0.0.5
-scipy==1.15.3
+flask>=3.0
+requests>=2.31
+pandas>=2.1          # DataFrame.map, used by the frontend
+numpy>=1.24
+networkx>=3.0        # graphs behind the Path and Topological orderings
+streamlit>=1.30
+python-dotenv>=1.0   # loads .env in service.py and app.py
+langchain-community>=0.2   # provides ChatOpenAI; no other langchain package is needed
