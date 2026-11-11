@@ -11,10 +11,9 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-DEFAULT_BASE = os.environ.get(
-    "REARCLEAN_BACKEND",
-    f"http://{os.environ.get('REARCLEAN_HOST', '127.0.0.1')}:"
-    f"{os.environ.get('REARCLEAN_PORT', '8000')}")
+DEFAULT_BASE = os.environ.get("REARCLEAN_BACKEND") or (
+    f"http://{os.environ.get('REARCLEAN_HOST') or '127.0.0.1'}:"
+    f"{os.environ.get('REARCLEAN_PORT') or '8000'}")
 
 
 class Backend:

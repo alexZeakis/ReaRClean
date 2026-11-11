@@ -53,7 +53,7 @@ Run both from the repository root. Nothing in the repository contains a credenti
 
 ## 🎬 Demo Video
 
-[![ReaRClean Demo](https://img.youtube.com/vi/ZiprUaBFCgs/hqdefault.jpg)](https://youtu.be/ZiprUaBFCgs)
+[![ReaRClean Demo](https://img.youtube.com/vi/tW0FKG0RqOs/hqdefault.jpg)](https://youtu.be/tW0FKG0RqOs)
 
 ---
 
